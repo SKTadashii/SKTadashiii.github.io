@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 0 24px;
+  background-color:#EE7C48;
+}
+
+.header__navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.navbar {
+  width: 100%; /* Cambiar a 100% para que el menú ocupe todo el ancho */
+  background-color: #EE7C48; /* Añadir color de fondo */
+  padding: 10px; /* Añadir espaciado alrededor del menú */
+}
+
+.navbar__items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Cambiar a 'space-around' para un mejor espaciado */
+  align-items: center;
+  margin: 0; /* Eliminar el margen predeterminado del navegador */
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff; /* Color de texto blanco */
+  padding: 8px 16px; /* Añadir relleno a los enlaces */
+  border-radius: 5px; /* Añadir bordes redondeados */
+  transition: background-color 0.3s; /* Agregar transición para un cambio suave */
+}
+
+.navbar__link:hover {
+  background-color: #fff; /* Cambiar el color de fondo al pasar el cursor */
+  color: #EE7C48; /* Cambiar el color del texto al pasar el cursor */
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.container_img{
+    margin-top: 25px;
+}
+
+.container_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid #ccc;
+    width: 100%;
+    color: hsl(26, 100%, 55%);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    -webkit-box-shadow: 14px 9px 8px -2px rgba(0,0,0,0.42);
+    -moz-box-shadow: 14px 9px 8px -2px rgba(0,0,0,0.42);
+    box-shadow: 14px 9px 8px -2px rgba(0,0,0,0.42);
+    border-radius: 10px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+}
+
+.form2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+
+input{
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-bottom: 4px solid #ccc;
+    background-color: white; /* Cambia el color de fondo del input */
+
+}
+
+input::placeholder {
+    color: #DADADA;
+  }
+
+textarea{
+    width: 80%;
+    height: 90px;
+    padding: 8px;
+    margin: 12px 0;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-bottom: 4px solid #ccc;
+    border: 1px solid #ccc;
+}
+
+textarea::placeholder {
+    color: #DADADA;
+}
+select{
+    width: 40%;
+    padding: 8px;
+    margin: 10px 0;
+    padding-left: 10px;
+    appearance: none; /* Oculta la apariencia predeterminada del select */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right center; /* Posición de la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    padding-right: 20px; /* Espacio a la derecha para la imagen */
+    border: 1px solid #ccc; /* Añade un borde alrededor del select */
+    border-radius: 5px;
+    background-image: url('../Imagenes/down-arrow-circle-svgrepo-com.svg');
+    color: #DADADA;
+    border-bottom: 4px solid #ccc;
+}
+
+hr{
+    border: 0; /* Elimina el borde predeterminado */
+    height: 5px; /* Establece la altura de la línea */
+    margin: 20px 0; /* Añade un margen superior e inferior para separar visualmente el contenido */
+    background: rgb(0, 0, 0);
+    width: 90%;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 9px 8px -2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 9px 8px -2px rgba(0,0,0,0.3);
+    box-shadow: 0px 9px 8px -2px rgba(0,0,0,0.3);
+  }
+
+  .container_inputAndButton{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  #personajes{
+    width: 60%;
+    padding: 8px;
+    margin: 10px 0;
+    padding-left: 10px;
+  }
+
+  .etiquetas{
+    display: flex;
+    width: 30%;
+    border-radius: 15px;
+  }
+
+  .input-file-label {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ADADAD;
+  }
+  
+  .input-file {
+    display: none;
+  }
+  .buttonMore{
+    width: 100px;
+    padding: 8px;
+    margin: 10px 0;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #EE7C48;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .clasificacion{
+    width: 50%;
+  }
+
+  .text1{
+    color: #DADADA;
+    font-size: 12px;
+  }

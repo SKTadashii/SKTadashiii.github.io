@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 0 24px;
+  background-color:#EE7C48;
+}
+
+.header__navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.navbar {
+    width: 100%; /* Cambiar a 100% para que el menú ocupe todo el ancho */
+    background-color: #EE7C48; /* Añadir color de fondo */
+    padding: 10px; /* Añadir espaciado alrededor del menú */
+  }
+  
+  .navbar__items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Cambiar a 'space-around' para un mejor espaciado */
+    align-items: center;
+    margin: 0; /* Eliminar el margen predeterminado del navegador */
+  }
+  
+  .navbar__link {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    padding: 8px 16px; /* Añadir relleno a los enlaces */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: background-color 0.3s; /* Agregar transición para un cambio suave */
+  }
+  
+  .navbar__link:hover {
+    background-color: #fff; /* Cambiar el color de fondo al pasar el cursor */
+    color: #EE7C48; /* Cambiar el color del texto al pasar el cursor */
+  }
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerMain{
+    width: 80%;
+}
+.title{
+    margin-top: 40px;
+    color: #EE7C48;
+}
+.containerBotones{
+    display: flex;
+    margin-top: 40px;
+}
+.btnG{
+    background-color: #7D7D7D;
+    color: white;
+    margin-right: 20px;
+    width: 90px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btnG:hover{
+    background-color: #EE7C48;
+    color: white;
+    cursor: pointer;
+}
+.btnP{
+    border-style:dashed;
+    width: 90px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.btnP:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/*ESTILOS TABLA*/
+
+.tabla-estilizada {
+    width: 100%; 
+    border-collapse: collapse;  
+    font-family: Arial, sans-serif; 
+    margin-top: 40px;
+    text-align: left;
+}
+
+.tabla-estilizada th, .tabla-estilizada td {
+    border: none; 
+    padding: 12px; 
+}
+
+.tabla-estilizada tbody tr:hover {
+    background-color: #e8e8e8; 
+}
+
+.containerTitulo{
+    width: 100%;
+ 
+
+}
+.titulos{
+    color: #EE7C48;
+    border-bottom: 3px solid #EE7C48;
+
+}
+
+.descripcion{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.desTitulo{
+    font-weight: bold;
+}
+.desSubtitulo{
+    color: #EE7C48;
+}
+
+tr:hover{
+    cursor: pointer;
+}

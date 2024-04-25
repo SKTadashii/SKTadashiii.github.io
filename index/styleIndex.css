@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 0 24px;
+  background-color:#EE7C48;
+}
+
+.header__navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.navbar {
+    width: 100%; /* Cambiar a 100% para que el menú ocupe todo el ancho */
+    background-color: #EE7C48; /* Añadir color de fondo */
+    padding: 10px; /* Añadir espaciado alrededor del menú */
+  }
+  
+  .navbar__items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Cambiar a 'space-around' para un mejor espaciado */
+    align-items: center;
+    margin: 0; /* Eliminar el margen predeterminado del navegador */
+  }
+  
+  .navbar__link {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    padding: 8px 16px; /* Añadir relleno a los enlaces */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: background-color 0.3s; /* Agregar transición para un cambio suave */
+  }
+  
+  .navbar__link:hover {
+    background-color: #fff; /* Cambiar el color de fondo al pasar el cursor */
+    color: #EE7C48; /* Cambiar el color del texto al pasar el cursor */
+  }
+
+.buscarMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Buscador{
+    display: flex;
+    width: 80%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.btns{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnEspañol{
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #F39744;
+    color: white;
+    font-weight: bold;
+}
+
+.btnEspañol:hover{
+    cursor: pointer;
+}
+
+.btnIngles{
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #C5C5C5;
+    color: white;
+    font-weight: bold;
+}
+
+.btnIngles:hover{
+    cursor: pointer;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+    background-color: #C5C5C5;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+.imgLupa{
+    width: 25px;
+    padding-left: 5px;
+}
+
+.inputBuscar{
+    background-color: #C5C5C5;
+    border: none;  
+    width: 95%; 
+    height: 100%; 
+    outline: none;
+    padding-left: 5px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.literaturaEscritura{
+    width: 80%;
+    
+}
+
+.rectangulo{
+    width: 100%;
+    height: 300px;
+    margin-top: 25px;
+    background-color: #F8C18B;
+    border-radius: 300px 0px 0px 0px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+.containerRight{
+    width: 70%;
+}
+
+.title{
+    color:#EC6D0C ;
+    font-size: 90px;
+    font-weight: 550;
+}
+
+.logo3{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.containerLibros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerDestacados{
+    width: 80%;
+    margin-top: 20px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destacadosTitle{
+    font-size: 15px;
+    color: #EC6D0C;
+}
+
+.destacadosImg{
+    width: 25px;
+}
+
+.destacadosImg:hover{
+    cursor: pointer;
+}
+
+
+.containerRecientes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.containRecinetes{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.containerBooks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.containBooks{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.formaBooks{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.formaBooks:hover{
+    cursor: pointer;
+}
+
+/*Reciente*/
+.CardsTitles{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleCard{
+    font-weight: 100;
+}
+
+.subTitleCard{
+    font-weight: 100;
+    color: #EC6D0C;
+}
